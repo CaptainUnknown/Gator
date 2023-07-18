@@ -29,5 +29,14 @@
     font-size: 1rem;
     font-family: var(--font);
     font-weight: 400;
+    p {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    p {
+      max-width: 90%;
+    }
   }
 }

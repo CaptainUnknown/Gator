@@ -10,8 +10,8 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(255,255,255,.08);
-    border: 1px solid rgba(255,255,255,.08);
+    background-color: var(--navbar-color);
+    border: 1px solid var(--navbar-color);
     border-radius: var(--border-radius);
     backdrop-filter: var(--blur);
     box-shadow: 0 0 20px 0 #00000033;
@@ -33,6 +33,7 @@ nav {
         font-size: 1rem;
         font-weight: 400;
         transition: color 200ms ease-in-out;
+        cursor: pointer;
 
         &:hover {
           color: var(--secondary);
@@ -59,23 +60,17 @@ nav {
     top: 0;
     left: 10%;
     cursor: pointer;
-    transition: transform 200ms ease-in-out;
 
     a {
       margin: 0;
       width: 25px;
       height: 25px;
-      img {
-        transition: transform 200ms ease-in-out;
-      }
     }
+  }
 
-
-    &:hover {
-      transform: scale(1.05);
-      img {
-        transform: translateX(-10px);
-      }
+  @media screen and (max-width: 500px) {
+    ul {
+      width: 90%;
     }
   }
 }
