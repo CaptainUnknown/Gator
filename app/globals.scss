@@ -1,29 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
-  --primary: #9848ff;
-  --secondary: #0b37d9;
-  --bg: #121212;
+  --primary: #2bcd00;
+  --secondary: #bef300;
+  --bg: #000000;
   --bg-transparent: #121212af;
-  --bg-accent: #202020;
-  --img-selection: #9748ff90;
-  --color-light: #808080;
-  --text-color: white;
+  --bg-accent: rgb(16, 16, 16);
+  --bg-lamp: rgba(40, 119, 194, 0.3);
+  --img-selection: #2bcd0090;
+  --text-color-xlight: rgb(255 255 255 / 40%);
+  --text-color-light: rgb(255 255 255 / 75%);
+  --text-color: rgb(250 249 246);
 
-  --nav-size: 110px;
-  --copyright-height: 100px;
-  --footer-height: 400px;
-  --min-body-height: calc(100vh - var(--nav-size) - var(--copyright-height) - var(--footer-height));
-
-  --gradient: linear-gradient(to right, #2626ff, #fb26ff);
-  --gradient-title: linear-gradient(266deg, #ad00ff 0.88%, #9848ff 38.79%, #0f8cff 74.7%, #001aff 128.58%);
-  --font: 'Inter', sans-serif;
-  --font-alt: 'Roboto', sans-serif;
+  --gradient: linear-gradient(90deg,#007cf0,#00dfd8);
+  --gradient-title: linear-gradient(90deg, #007cf0, #00dfd8);
+  --font: 'Poppins', sans-serif;
+  --font-alt: 'Inter', sans-serif;
 
   --speed: 300ms;
-  --border-radius: 12px;
+  --border-radius: 25px;
   --border-width: 2px;
   --border-color: #202020;
   --border: var(--border-width) solid var(--border-color);
   --blur: blur(15px);
+
+  --navbar-height: 50px;
 
   /* Next Defaults */
   --max-width: 1100px;
@@ -109,21 +110,55 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  text-size-adjust: none;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--text-color);
+  background: var(--bg);
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+:root {
+  p::selection,
+  a::selection,
+  h1::selection,
+  h2::selection,
+  h3::selection,
+  li::selection,
+  br::selection,
+  div::selection,
+  span::selection,
+  input::selection,
+  button::selection {
+    color: var(--bg);
+    -webkit-text-fill-color: var(--bg);
+    background-color: var(--primary);
+  }
+  img::selection {
+    background-color: var(--img-selection);
+  }
+}
+
+//Scroll Bar
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--bg-accent);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary);
 }
 
 @media (prefers-color-scheme: dark) {
