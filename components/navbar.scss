@@ -47,8 +47,8 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255,255,255,.08);
-    border: 1px solid rgba(255,255,255,.08);
+    background-color: var(--navbar-color);
+    border: 1px solid var(--navbar-color);
     border-radius: var(--border-radius);
     backdrop-filter: var(--blur);
     box-shadow: 0 0 20px 0 #00000033;

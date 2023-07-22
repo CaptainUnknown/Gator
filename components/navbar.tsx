@@ -3,9 +3,12 @@ import '@/components/navbar.scss'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion, useScroll, useSpring } from 'framer-motion'
+import { usePathname } from 'next/navigation'
 
-export default function Navbar({ isHome }: { isHome?: boolean }) {
+export default function Navbar() {
     const { scrollYProgress } = useScroll();
+    const isHome: boolean = usePathname() === '/';
+
     const scaleX = useSpring(scrollYProgress, {
         stiffness: 100,
         damping: 30,
