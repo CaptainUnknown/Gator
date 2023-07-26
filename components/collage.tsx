@@ -1,8 +1,7 @@
 'use client'
 
-import '@/app/collage/page.scss'
+import '@/components/collage.scss'
 import Image from 'next/image'
-import ScrollToTop from '@/components/scrollToTop'
 import React, {useEffect, useRef, useState} from 'react';
 
 const images = [

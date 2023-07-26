@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 :root {
   --primary: #2bcd00;
   --secondary: #bef300;
@@ -15,7 +13,6 @@
 
   --gradient: linear-gradient(90deg,#007cf0,#00dfd8);
   --gradient-title: linear-gradient(90deg, #007cf0, #00dfd8);
-  --font: 'Poppins', sans-serif;
   --font-alt: 'Inter', sans-serif;
 
   --speed: 300ms;
@@ -109,6 +106,7 @@
 
 html,
 body {
+  --font: var(--font-poppins);
   max-width: 100vw;
   overflow-x: hidden;
 

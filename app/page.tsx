@@ -1,6 +1,7 @@
 import '@/app/page.scss'
 import Image from 'next/image'
-import OpenButton from "@/components/openButton";
+import OpenButton from '@/components/openButton';
+import Collage from '@/components/collage';
 
 export default function Home() {
     return <>
@@ -37,6 +38,10 @@ export default function Home() {
                 </div>
             </div>
 
+        </section>
+
+        <section>
+            <Collage />
         </section>
     </>
 }
