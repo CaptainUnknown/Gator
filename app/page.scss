@@ -152,6 +152,15 @@
         width: 70%;
         height: 70%;
       }
+
+      .omibio {
+        width: 70%;
+        height: 70%;
+        filter: brightness(1.5);
+        position: relative;
+        left: 96px;
+        top: 70px;
+      }
     }
 
     @media screen and (max-width: 1250px) {
@@ -165,7 +174,7 @@
     .card {
       .cardContent {
         flex-direction: column;
-        padding: 2rem;
+        padding: 0;
         width: 100%;
 
         h1, p, h3 {
@@ -177,6 +186,14 @@
         .splash {
           width: 100%;
           height: 100%;
+        }
+
+        .omibio {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          left: 0;
+          top: 0;
         }
 
         a {

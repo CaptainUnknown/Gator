@@ -5,6 +5,8 @@ import { Tweet } from 'react-tweet'
 
 export const metadata = {
     title: 'Raffle System | Case Study',
+    description: 'Developing an efficient raffle system for ERC-721 tokens that seamlessly handles multiple concurrent raffles.',
+    image: '/raffleCS.webp'
 }
 
 export default function RaffleCaseStudy() {
@@ -85,13 +87,12 @@ export default function RaffleCaseStudy() {
             <section>
                 <h2>Community Feedback</h2>
                 <p>
-                    The feedback received for the current system has been overwhelmingly positive. The system effectively provides raffles with a comparable level of utility to other competitors in the market. While also minimizing operational costs to a significant extent, resulting in a highly cost-efficient solution.
+                    The feedback received for the current system has been overwhelmingly positive. The system effectively provides raffles with a comparable level of utility to other competitors. While also minimizing operational costs to a significant extent, resulting in a highly cost-efficient solution.
                 </p>
                 <Tweet id="1652202744705605632" />
-                <Tweet id="1677813481662193664" />
                 <Tweet id="1652143403550003200" />
                 <Tweet id="1652529266414829570" />
-                <div>{/*TODO: Repository Embed*/}</div>
+                <Tweet id="1677813481662193664" />
             </section>
         </div>
         <ScrollToTop />
