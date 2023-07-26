@@ -25,7 +25,7 @@ export default function Collage() {
 
     useEffect(() => {
         if (collage.current) {
-            const height = collage.current.clientHeight;
+            const {clientHeight: height} = collage.current;
             setCollageHeight(height);
             console.log('Div height:', height);
         }

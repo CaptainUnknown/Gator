@@ -37,7 +37,7 @@ export default function RaffleCaseStudy() {
                 <h4 style={{marginTop: '4rem'}}>Breakdown</h4>
                 <h2 style={{marginTop: '0'}}>Smart Contract</h2>
                 <p>
-                    The Smart Contract exposes two functions for a wallet that can be granted or confiscated the admin role by the contract deployer. The admin wallet has the right to start and close raffles. Starting a raffle requires various parameters while closing a raffle requires a random seed. When users purchase an entry, the contract stores the number of entries bought as ranges (represented by lower and upper bounds) along with the buyer's address in an array.
+                    The Smart Contract exposes two functions for a wallet that can be granted or confiscated the admin role by the contract deployer. The admin wallet has the right to start and close raffles. Starting a raffle requires various parameters while closing a raffle requires a random seed. When users purchase an entry, the contract stores the number of entries bought as ranges (represented by lower and upper bounds) along with the buyer&apos;s address in an array.
                 </p>
                 <Image src='/raffleSC.svg' alt='Smart Contract Code' width={5928} height={2424} style={{ aspectRatio: '5928/2424', width: '100%', height: '100%' }}/>
                 <p className='caption'>Smart Contract Snippet</p>
@@ -71,7 +71,7 @@ export default function RaffleCaseStudy() {
             <section>
                 <h2>User Suggestions & Features</h2>
                 <p>
-                    The community has been very supportive of the project and has provided valuable feedback. During the initial release, users expressed concerns about the additional gas costs associated with ERC-20 based raffles. To purchase an entry, users had to perform two separate transactions: one to allow ERC-20 spending to the contract and another to interact with the Raffle Contract. To address this issue, I implemented a central widget that enables users to grant an allowance to the Raffle Contract. This improvement eliminates the need for users to repeatedly grant allowances if sufficient allowance has already been provided. Additionally, the widget offers the added utility of displaying the user's balance.
+                    The community has been very supportive of the project and has provided valuable feedback. During the initial release, users expressed concerns about the additional gas costs associated with ERC-20 based raffles. To purchase an entry, users had to perform two separate transactions: one to allow ERC-20 spending to the contract and another to interact with the Raffle Contract. To address this issue, I implemented a central widget that enables users to grant an allowance to the Raffle Contract. This improvement eliminates the need for users to repeatedly grant allowances if sufficient allowance has already been provided. Additionally, the widget offers the added utility of displaying the user&apos;s balance.
                 </p>
                 <Image src='/Allowance.webp' alt='ERC-20 Allowance Widget' width={3635} height={406} style={{ aspectRatio: '3635/406', width: '100%', height: '100%', marginTop: '20px' }}/>
                 <p className='caption' style={{marginTop: '10px'}}>ERC-20 Allowance Widget</p>
@@ -79,7 +79,7 @@ export default function RaffleCaseStudy() {
             <section>
                 <h2>Summary</h2>
                 <p>
-                    The system paired with the user-friendly web interface contributed to a seamless and enjoyable user experience. With few trials, errors & especially the user feedback, the system was driven in the right direction that it is now. The overwhelmingly positive feedback from the community validates the system's effectiveness and value.
+                    The system paired with the user-friendly web interface contributed to a seamless and enjoyable user experience. With few trials, errors & especially the user feedback, the system was driven in the right direction that it is now. The overwhelmingly positive feedback from the community validates the system&apos;s effectiveness and value.
                 </p>
                 <Image src='/map.svg' alt='System Map' width={923} height={647} style={{ aspectRatio: '923/647', width: '100%', height: '100%', marginTop: '20px' }}/>
                 <p className='caption'>System Map</p>
