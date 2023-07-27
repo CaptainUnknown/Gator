@@ -33,7 +33,7 @@ export default function RaffleCaseStudy() {
                 </p>
 
                 <div className='barrier'>
-                    ⚠️ Work In Process
+                    ⚠️ Work In Progress
                 </div>
             </section>
         </div>

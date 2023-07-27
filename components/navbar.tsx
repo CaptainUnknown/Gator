@@ -25,8 +25,8 @@ export default function Navbar() {
         }
     };
 
-    const scrollToAbout = () => {
-        const anchor = document.getElementById('projects');
+    const scrollToHome = () => {
+        const anchor = document.getElementById('hero');
         if (anchor) {
             window.scrollTo({
                 top: anchor.offsetTop,
@@ -40,7 +40,7 @@ export default function Navbar() {
             {
                 isHome ? <>
                     <ul>
-                        <li><a onClick={scrollToAbout}>About</a></li>
+                        <li><a onClick={scrollToHome}>Home</a></li>
                         <li><a onClick={scrollToProjects}>Projects</a></li>
                         <li><a href='mailto:captainunknown7@gmail.com'>Contact</a></li>
                     </ul>
