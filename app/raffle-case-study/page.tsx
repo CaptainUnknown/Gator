@@ -81,7 +81,7 @@ export default function RaffleCaseStudy() {
                 <p>
                     The system paired with the user-friendly web interface contributed to a seamless and enjoyable user experience. With few trials, errors & especially the user feedback, the system was driven in the right direction that it is now. The overwhelmingly positive feedback from the community validates the system&apos;s effectiveness and value.
                 </p>
-                <Image src='/map.svg' alt='System Map' width={923} height={647} style={{ aspectRatio: '923/647', width: '100%', height: '100%', marginTop: '20px' }}/>
+                <Image src='/map.svg' alt='System Map' width={1004} height={780} style={{ aspectRatio: '1004/780', width: '100%', height: '100%', marginTop: '20px' }}/>
                 <p className='caption'>System Map</p>
             </section>
             <section>
