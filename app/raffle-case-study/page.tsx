@@ -92,7 +92,7 @@ export default function RaffleCaseStudy() {
                 <Tweet id="1652202744705605632" />
                 <Tweet id="1652143403550003200" />
                 <Tweet id="1652529266414829570" />
-                <Tweet id="1677813481662193664" />
+                {/*<Tweet id="1677813481662193664" />*/}
             </section>
         </div>
         <ScrollToTop />
