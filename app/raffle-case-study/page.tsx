@@ -15,7 +15,7 @@ export default function RaffleCaseStudy() {
             <h1>A Raffle System</h1>
             <img src='/raffle.webp' alt='Raffle Cards' height={2635} width={1600} style={{aspectRatio: '2635/1600' }}/>
             <div className='introBox'>
-                <p>Developing an efficient raffle system for ERC-721 tokens that seamlessly handles multiple concurrent raffles.</p>
+                <p>Designed & developed a cross chain raffle system for ERC-721 tokens, that facilitated over 100k ticket purchases.</p>
             </div>
         </section>
         <div className='caseStudyWrapper'>
