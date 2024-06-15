@@ -11,6 +11,10 @@ export const metadata = {
 
 export default function Home() {
     return <>
+    <meta property="og:site_name" content="Shehrozk"/>
+    <meta property="og:title" content="Shehroz K."/>
+    <meta property="og:description" content="Full-Stack Web3 Developer | Strap on as we chart the unknown of Web3." />
+
         <section className='intro' id='hero'>
             <div className='introContent'>
                 <h1>Shehroz K.</h1>
