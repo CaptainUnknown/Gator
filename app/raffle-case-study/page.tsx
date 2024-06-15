@@ -5,7 +5,7 @@ import { Tweet } from 'react-tweet'
 
 export const metadata = {
     title: 'Raffle System | Case Study',
-    description: 'Developing an efficient raffle system for ERC-721 tokens that seamlessly handles multiple concurrent raffles.',
+    description: 'Designed & developed a cross chain raffle system for ERC-721 tokens, that facilitated over 100k ticket purchases.',
     image: '/raffleCS.webp'
 }
 

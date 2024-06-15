@@ -3,6 +3,12 @@ import Image from 'next/image'
 import OpenButton from '@/components/openButton';
 import Collage from '@/components/collage';
 
+export const metadata = {
+    title: 'Shehroz K.',
+    description: 'Full-Stack Web3 Developer | Strap on as we chart the unknown of Web3.',
+    image: '/squiggle.png'
+}
+
 export default function Home() {
     return <>
         <section className='intro' id='hero'>
