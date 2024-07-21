@@ -18,7 +18,7 @@ export default function Home() {
         <section className='intro' id='hero'>
             <div className='introContent'>
                 <h1>Shehroz K.</h1>
-                <p>A Crazy Curious & Self-taught Web3 Developer, eager to join a team of innovators!</p>
+                <p>A Crazy Curious & Self-taught Full Stack Blockchain Developer, eager to join a team of innovators!</p>
             </div>
             <Image src='/squiggle.png' alt='squiggle' width={500} height={500}/>
         </section>

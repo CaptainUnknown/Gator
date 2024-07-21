@@ -30,14 +30,14 @@ export default function RaffleCaseStudy() {
                 </p>
                 <h3>THE VISION</h3>
                 <p>
-                    Using an automated off-chain service that initiates a process for each raffle and closes it at the designated time and provides the Smart Contract an off-chain but cryptographically secure random seed.
+                    Using an automated off-chain service that initiates a process for each raffle and closes it at the designated time and provides the Smart Contract an off-chain but cryptographically secure random seed. Moreover, dropping the gas costs even further to a single penny by maximizing utilization of an L2 chain. 
                 </p>
             </section>
             <section>
                 <h4 style={{marginTop: '4rem'}}>Breakdown</h4>
-                <h2 style={{marginTop: '0'}}>Smart Contract</h2>
+                <h2 style={{marginTop: '0'}}>Smart Contracts</h2>
                 <p>
-                    The Smart Contract exposes two functions for a wallet that can be granted or confiscated the admin role by the contract deployer. The admin wallet has the right to start and close raffles. Starting a raffle requires various parameters while closing a raffle requires a random seed. When users purchase an entry, the contract stores the number of entries bought as ranges (represented by lower and upper bounds) along with the buyer&apos;s address in an array.
+                    A Smart Contract logs the current discount qualifiers by tracking the wallets that hold certain NFTs on the mainnet. A few more contracts are responsible for token bridging & NFT Wrapping/Unwrapping. For the Raffle Contract, the admin wallets have the right to start and close raffles. Starting a raffle requires various parameters while closing a raffle requires a random seed. When users purchase an entry, the contract stores the number of entries bought as ranges (represented by lower and upper bounds) along with the buyer&apos;s address in an array.
                 </p>
                 <Image src='/raffleSC.svg' alt='Smart Contract Code' width={5928} height={2424} style={{ aspectRatio: '5928/2424', width: '100%', height: '100%' }}/>
                 <p className='caption'>Smart Contract Snippet</p>
@@ -57,7 +57,7 @@ export default function RaffleCaseStudy() {
             <section>
                 <h2>Web Interface</h2>
                 <p>
-                    The web features a beautiful user interface that allows users to seamlessly interact with the contract, while also providing many other off-chain quality-of-life features. The site uses a combination of various third-party APIs & its own Parse (NodeJS) server to serve the Metadata, Activity & User Info.
+                    The web features a beautiful user interface that allows users to seamlessly interact with the contracts, while also providing many other off-chain quality-of-life features. The site provides a complete ecosystem of features for the project. For instance, Claiming Royalties, Claiming V2 NFTs or essential bridging actions.
                 </p>
                 <Image src='/Connect.webp' alt='Connect Wallet Widget' width={3659} height={952} style={{ aspectRatio: '3659/952', width: '100%', height: '100%', marginTop: '20px' }}/>
                 <p className='caption' style={{marginTop: '10px'}}>Connect Wallet Widget</p>
@@ -71,7 +71,7 @@ export default function RaffleCaseStudy() {
             <section>
                 <h2>User Suggestions & Features</h2>
                 <p>
-                    The community has been very supportive of the project and has provided valuable feedback. During the initial release, users expressed concerns about the additional gas costs associated with ERC-20 based raffles. To purchase an entry, users had to perform two separate transactions: one to allow ERC-20 spending to the contract and another to interact with the Raffle Contract. To address this issue, I implemented a central widget that enables users to grant an allowance to the Raffle Contract. This improvement eliminates the need for users to repeatedly grant allowances if sufficient allowance has already been provided. Additionally, the widget offers the added utility of displaying the user&apos;s balance.
+                    The community has been very supportive of the project and has provided valuable feedback. Many of the features were continually developed in an agile manner based upon users feedback. For instance, during the initial release, users expressed concerns about the additional gas costs associated with ERC-20 based raffles. To purchase an entry, users had to perform two separate transactions: one to allow ERC-20 spending to the contract and another to interact with the Raffle Contract. To address this issue, I implemented a central widget that enables users to grant an allowance to the Raffle Contract. This improvement eliminates the need for users to repeatedly grant allowances if sufficient allowance has already been provided. This was later updated to ERC-2612 permit extension for ERC 20. In later updates, the widget provides utility of displaying the user&apos;s balance of Eth & ERC 20 on both chains.
                 </p>
                 <Image src='/Allowance.webp' alt='ERC-20 Allowance Widget' width={3635} height={406} style={{ aspectRatio: '3635/406', width: '100%', height: '100%', marginTop: '20px' }}/>
                 <p className='caption' style={{marginTop: '10px'}}>ERC-20 Allowance Widget</p>
@@ -79,7 +79,7 @@ export default function RaffleCaseStudy() {
             <section>
                 <h2>Summary</h2>
                 <p>
-                    The system paired with the user-friendly web interface contributed to a seamless and enjoyable user experience. With few trials, errors & especially the user feedback, the system was driven in the right direction that it is now. The overwhelmingly positive feedback from the community validates the system&apos;s effectiveness and value.
+                    The system paired with the user-friendly web interface contributed to a seamless and enjoyable user experience. With few trials, errors & especially with the user feedback, the system was driven in the right direction that it is now. The overwhelmingly positive feedback from the community validates the system&apos;s effectiveness and value.
                 </p>
                 <Image src='/map.svg' alt='System Map' width={1004} height={780} style={{ aspectRatio: '1004/780', width: '100%', height: '100%', marginTop: '20px' }}/>
                 <p className='caption'>System Map</p>
@@ -87,11 +87,16 @@ export default function RaffleCaseStudy() {
             <section>
                 <h2>Community Feedback</h2>
                 <p>
-                    The feedback received for the current system has been overwhelmingly positive. The system effectively provides raffles with a comparable level of utility to other competitors. While also minimizing operational costs to a significant extent, resulting in a highly cost-efficient solution.
+                    The feedback received for the current system has been overwhelmingly positive. Moreover, the system effectively provides raffles with a comparable level of utility to other competitors. While also minimizing operational costs to a significant extent, resulting in a highly cost-efficient solution.
                 </p>
-                <Tweet id="1652202744705605632" />
-                <Tweet id="1652143403550003200" />
                 <Tweet id="1652529266414829570" />
+                <Tweet id="1769562345783566376" />
+                <Tweet id="1669807525657559040" />
+
+                <Tweet id="1652143403550003200" />
+                <Tweet id="1677813481662193664" />
+                <Tweet id="1672055295927898112" />
+                <Tweet id="1698955981357772889" />
             </section>
         </div>
         <ScrollToTop />
