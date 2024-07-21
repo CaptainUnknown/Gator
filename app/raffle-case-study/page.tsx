@@ -67,9 +67,9 @@ export default function RaffleCaseStudy() {
                 <p className='caption'>Raffle in &quot;Ongoing&quot; State</p>
                 <Image src='/labeledEnded.webp' alt='A Labeled Raffle Card of an Ended Raffle' width={1856} height={1600} style={{ aspectRatio: '1856/1600', width: '60%', height: '60%' }}/>
                 <p className='caption'>Raffle in &quot;Ended&quot; State</p>
-                <Image src='/bridge.png' alt='Unwrap widget to bridge NFTs to the mainnet' width={2050} height={1941} style={{ aspectRatio: '2050/1941', width: '60%', height: '60%' }}/>
+                <Image src='/bridge.png' alt='Unwrap widget to bridge NFTs to the mainnet' width={2050} height={1941} style={{ aspectRatio: '2050/1941', width: '100%', height: '100%' }}/>
                 <p className='caption'>Asset Bridge Widget</p>
-                <Image src='/unwrap.png' alt='Asset bridging widget from Eth mainnet to Nova' width={2694} height={1368} style={{ aspectRatio: '2694/1368', width: '60%', height: '60%' }}/>
+                <Image src='/unwrap.png' alt='Asset bridging widget from Eth mainnet to Nova' width={2694} height={1368} style={{ aspectRatio: '2694/1368', width: '100%', height: '100%' }}/>
                 <p className='caption'>Unwrap Widget</p>
             </section>
             <section>
